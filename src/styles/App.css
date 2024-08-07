@@ -1,0 +1,68 @@
+src/styles/App.css
+
+.App {
+    text-align: center;
+    background: #121212;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    color: #f4f4f9;
+  }
+  
+  button {
+    background: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #5b00d6;
+  }
+  
+  .conversation {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #1e1e2f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .conversation p {
+    margin: 10px 0;
+    padding: 10px;
+    background: #2e2e3f;
+    border-radius: 5px;
+  }
+  
+  .conversation button {
+    margin-top: 10px;
+  }
+  
+  .audio-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .audio-controls button {
+    margin-left: 10px;
+    background: #6200ea;
+  }
+  
